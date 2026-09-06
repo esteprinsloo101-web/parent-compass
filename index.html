@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Parent Compass — practical South African parent guidance for everyday situations. Scenario cards with psychology-lite frameworks and ethics notes. Not therapy. Adults 18+.">
+  <meta name="robots" content="index,follow">
+  <title>Parent Compass | Everyday parent guidance (SA)</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle fill='%233d6b5a' cx='32' cy='32' r='30'/%3E%3Ctext x='32' y='41' text-anchor='middle' fill='white' font-size='16' font-family='sans-serif' font-weight='700'%3EPC%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="safety-bar" role="alert">
+    <p>
+      <strong>Safety:</strong> If a child is in danger, abuse, or violence is involved — call police / social services now.
+      Emergency <strong>112</strong> · Childline SA <strong>116</strong> (toll-free, 24h) ·
+      <a href="https://findahelpline.com" target="_blank" rel="noopener noreferrer">findahelpline.com</a>
+    </p>
+    <div class="safety-actions">
+      <a class="btn-call" href="tel:112">Call 112</a>
+      <a class="btn-call alt" href="tel:116">Childline 116</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <header class="site-header">
+      <div class="logo-mark" aria-hidden="true">PC</div>
+      <h1>Parent Compass</h1>
+      <p class="tagline">Practical psychology + morals/ethics prompts for everyday parenting moments. Faceless. South Africa–aware. Free demo · sellable pack.</p>
+      <div class="badge-row">
+        <span class="badge">Adults 18+</span>
+        <span class="badge">Not therapy</span>
+        <span class="badge">Not counselling</span>
+        <span class="badge">Scenario cards only</span>
+      </div>
+    </header>
+
+    <aside class="disclaimer-box" role="note">
+      <strong>Hard safety:</strong> Parent Compass is <em>not</em> therapy, counselling, clinical advice, or diagnosis.
+      It does <strong>not</strong> replace social workers, psychologists, lawyers, or teachers.
+      Cards are frameworks and prompts for adult parents/caregivers (18+) — not an AI therapist.
+      If abuse, violence, or a child in danger: call police / social services / <strong>Childline SA 116</strong>, or use
+      <a href="https://findahelpline.com" target="_blank" rel="noopener noreferrer">findahelpline.com</a> and emergency <strong>112</strong>.
+    </aside>
+
+    <nav class="modules" aria-label="Sections">
+      <a href="#situations">Situations</a>
+      <a href="#favourites">Favourites</a>
+      <a href="#help">When to get help</a>
+      <a href="#pack">Get the pack</a>
+    </nav>
+
+    <main>
+      <section class="card" id="situations">
+        <h2>Situation picker</h2>
+        <p class="lead">Tap a situation for a practical card: what’s going on, try this, why it helps, an ethics note, and when to get outside help.</p>
+        <div class="situation-grid" id="situation-grid"></div>
+        <div class="protocol" id="card-panel" hidden aria-live="polite"></div>
+      </section>
+
+      <section class="card" id="favourites">
+        <h2>Your favourites</h2>
+        <p class="lead">Saved on this device only (localStorage). Nothing is uploaded.</p>
+        <div id="favourites-list" class="fav-list">
+          <p class="empty-fav" id="fav-empty">No favourites yet — open a card and tap ★ Save.</p>
+        </div>
+      </section>
+
+      <section class="card" id="help">
+        <h2>When to get outside help</h2>
+        <p class="lead">Parent Compass stops at frameworks. Reach real people when the situation is bigger than a parenting tip.</p>
+        <div class="call-list">
+          <div class="call-item">
+            <div>
+              <h3>Emergency — 112</h3>
+              <p>Immediate danger, violence, or a child at risk right now.</p>
+            </div>
+            <a class="btn-call-sm" href="tel:112">Call 112</a>
+          </div>
+          <div class="call-item">
+            <div>
+              <h3>Childline South Africa — 116</h3>
+              <p>Toll-free, 24 hours, free from all networks. For children and adults concerned about a child. Cite: childlinesa.org.za</p>
+            </div>
+            <a class="btn-call-sm" href="tel:116">Call 116</a>
+          </div>
+          <div class="call-item">
+            <div>
+              <h3>Police / SAPS — 10111</h3>
+              <p>Report crime, abuse, or when you need police response.</p>
+            </div>
+            <a class="btn-call-sm" href="tel:10111">Call 10111</a>
+          </div>
+          <div class="call-item">
+            <div>
+              <h3>More helplines</h3>
+              <p>Mental health, GBV, and other support — check current local numbers.</p>
+            </div>
+            <a class="btn-link" href="https://findahelpline.com" target="_blank" rel="noopener noreferrer">findahelpline.com</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card cta-box" id="pack">
+        <h2>Get the Situation Scripts Pack</h2>
+        <p class="lead">Printable scripts, worksheets, and the hard disclaimer for home use. Free demo app · paid pack.</p>
+        <p class="price">R149</p>
+        <a class="btn-cta" href="https://gumroad.com" target="_blank" rel="noopener noreferrer">Get the pack → Gumroad</a>
+        <p class="cta-note">Placeholder link — replace with live Gumroad URL after publish. See GUMROAD_LISTING.md</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p><strong>Parent Compass</strong> — faceless South African parent guidance.</p>
+    <p>Not therapy · Not counselling · Not a substitute for professionals · Adults 18+</p>
+    <p>Danger / abuse: <strong>112</strong> · Childline SA <strong>116</strong> · findahelpline.com · © Parent Compass</p>
+  </footer>
+
+  <script src="js/situations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
