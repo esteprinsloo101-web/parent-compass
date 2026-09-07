@@ -1,5 +1,7 @@
+Web demo (free): https://esteprinsloo101-web.github.io/parent-compass/  
 # Gumroad listing — Parent Compass
 
+> **QA:** adversarial PASS · rounds 3 · 2026-09-06 · by Quill (Legal one-liner baked verbatim)  
 > **Status:** Ready to publish after Gumroad create-limit reset. Soft CTA on free demo points here (placeholder until live URL).  
 > **Safety fence:** `pack/DISCLAIMER.md` (required on sales page).
 
@@ -10,7 +12,7 @@
 **R149** (ZAR)
 
 ## One-liner (fence — bake into listing page)
-> Parent Compass offers everyday parenting scenario cards and printable scripts only. It is not therapy, counselling, clinical advice, or diagnosis, and it does not replace social workers, psychologists, lawyers, or teachers. For adults 18+ only. If a child is in danger, or if abuse or violence is involved, call 112 / police and Childline SA 116 (or use findahelpline.com).
+> Parent situation scripts and education for adults only. Not therapy, not counselling, not clinical parenting assessment or diagnosis, and not legal advice (including custody, access, or discipline disputes). Not a substitute for a registered psychologist, social worker, teacher, or attorney. If a child is in danger, being abused, or you/they are in crisis, contact emergency services / child-protection authorities and SADAG (0800 567 567 / sadag.org) or https://findahelpline.com — do not rely on this pack. Parent Compass / the seller is not a clinic, law firm, or HPCSA practice.
 
 ## Short description
 Parent Compass is a faceless South African parent guidance pack: practical psychology-lite frameworks + morals/ethics prompts for everyday situations (bedtime, siblings, screens, honesty, chores, respect, school stress, apologies/repair). Free demo web app with favourites · paid printable scripts & worksheets **R149**. Not therapy. Not an AI counsellor.
