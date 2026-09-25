@@ -47,3 +47,5 @@ GitHub: `esteprinsloo101-web/parent-compass` (when pushed)
 ## Do not confuse with
 
 Unrelated products (do not modify/merge): little-angels, first-minutes, steady-kit, randradar, Plain Desk, leeslig.
+
+> **2026-09-25:** paid pack files (`pack/`, zip) removed from this public repo/site. Buyers get them via Gumroad only.
